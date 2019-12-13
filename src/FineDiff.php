@@ -1,4 +1,7 @@
 <?php
+
+namespace dplus3\phpfinediff;
+
 /**
 * FINE granularity DIFF
 *
