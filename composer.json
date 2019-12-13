@@ -5,7 +5,7 @@
     },
     "autoload": {
         "psr-4": {
-            "phpfinediff//": "src/"
+            "dplus3\\phpfinediff\\": "src/"
         }
     },
     "minimum-stability": "dev"
