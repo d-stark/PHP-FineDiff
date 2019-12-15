@@ -294,7 +294,7 @@ class FineDiff {
 	*/
 	public static function renderToTextFromOpcodes($from, $opcodes) {
 		ob_start();
-		FineDiff::renderFromOpcodes($from, $opcodes, array('FineDiff','renderToTextFromOpcode'));
+		FineDiff::renderFromOpcodes($from, $opcodes, array('dplus3\phpfinediff\FineDiff','renderToTextFromOpcode'));
 		return ob_get_clean();
 		}
 
@@ -303,7 +303,7 @@ class FineDiff {
 	*/
 	public static function renderDiffToHTMLFromOpcodes($from, $opcodes) {
 		ob_start();
-		FineDiff::renderFromOpcodes($from, $opcodes, array('FineDiff','renderDiffToHTMLFromOpcode'));
+		FineDiff::renderFromOpcodes($from, $opcodes, array('dplus3\phpfinediff\FineDiff','renderDiffToHTMLFromOpcode'));
 		return ob_get_clean();
 		}
 
